@@ -180,9 +180,5 @@ bot=WeiboBot(directory="/Users/zpp/Downloads/weibo",headless=False) #please modi
 bot.login(loginname="example@gmail.com",password="123456") #please modify this
 bot.save_chat(nickname="zhimatang",total_count=1000) #please modify this
 '''
-       
-bot=WeiboBot(directory="/Users/lws/Downloads/weibo",headless=False)
-#bot.login(loginname="wawnx2@gmail.com",password="lwslws")
-bot.login(loginname="wawnx9@163.com",password="Lwslws123")
-bot.save_chat(nickname="liufeng",total_count=100)  
+
 
